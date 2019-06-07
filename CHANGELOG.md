@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.0 - 2019.06.07
+
+* Add option for passing custom SSH arguments
+
 ## 1.4.0 - 2017.06.27
 
 * Display a kill signal with which tunnel is closed

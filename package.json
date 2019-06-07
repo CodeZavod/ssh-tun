@@ -1,6 +1,6 @@
 {
-  "name": "ssh-tun",
-  "version": "1.6.0",
+  "name": "@codezavod/ssh-tun",
+  "version": "1.7.0",
   "description": "Module for establishing ssh tunnel",
   "keywords": [
     "ssh",
@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemini-testing/ssh-tun/"
+    "url": "https://github.com/CodeZavod/ssh-tun/"
   },
-  "homepage": "https://github.com/gemini-testing/ssh-tun/",
-  "bugs": "https://github.com/gemini-testing/ssh-tun/issues",
+  "homepage": "https://github.com/CodeZavod/ssh-tun/",
+  "bugs": "https://github.com/CodeZavod/ssh-tun/issues",
   "maintainers": [
     {
       "name": "Ilia Isupov",
@@ -24,11 +24,17 @@
       "name": "Anton Usmansky",
       "email": "j0tunn@ya.ru",
       "github-username": "j0tunn"
+    },
+    {
+      "name": "Vadim Petrov",
+      "email": "imposibrus@gmail.com",
+      "github-username": "imposibrus"
     }
   ],
   "contributors": [
     "Ilia Isupov <ilia.isupov@gmail.com>",
-    "Anton Usmansky <j0tunn@ya.ru>"
+    "Anton Usmansky <j0tunn@ya.ru>",
+    "Vadim Petrov <imposibrus@gmail.com>"
   ],
   "engines": {
     "node": ">= 0.10.0"

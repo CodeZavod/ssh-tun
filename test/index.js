@@ -142,6 +142,18 @@ describe('Tunnel', function () {
                     expect(sshArgs).to.contain('-i ~/.ssh/id_rsa_alt');
                 });
 
+                it('should spawn tunnel with provided additional SSH arguments', function () {
+                    tunnel = createTunnel({
+                        additionalSSHArgs: ['-o ControlPath=no']
+                    });
+
+                    tunnel.open();
+
+                    var sshArgs = childProcess.spawn.lastCall.args[1];
+
+                    expect(sshArgs).to.contain('-o ControlPath=no');
+                });
+
                 it('should resolve promise if tunnel successfully created', function () {
                     tunnel = createTunnel();
 
